@@ -1,0 +1,25 @@
+.content-heading{
+    top: 12%;
+    left: 3%;
+    width: 44%;
+
+    h2{
+        color: #c3151c94;
+        font-family: 'Monoton', cursive;
+        letter-spacing: 2px;
+        font-size: 6em;
+    }
+    p{
+        color: whitesmoke;
+        font-family: 'Unica One', cursive;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+}
+.h2-border{
+    @include border-bottom();
+    top: 55%;
+    left: 0.6%;
+    width: 73%;
+
+}

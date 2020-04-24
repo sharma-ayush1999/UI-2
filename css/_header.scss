@@ -1,0 +1,36 @@
+@mixin border-bottom(){
+    top: 73%;
+    left: 2.6%;
+    width: 4%;
+    background-color: white;
+    padding: 0.1em;
+
+}
+.header{
+    top: 2%;
+    left: 51%;
+    li{
+        padding: 1em;
+        font-family: 'Orbitron', sans-serif;
+    }
+    a{
+        color: #b48487;
+        letter-spacing: 1px;
+        transition: all 0.7s ease-in-out;
+        
+    }
+    a:hover{
+        color: #c02c27;
+    }
+    li:nth-child(1){
+        a{
+            color: #c02c27;
+            font-weight: bold;
+        }
+    }
+
+}
+.li-border{
+    @include border-bottom();
+}
+

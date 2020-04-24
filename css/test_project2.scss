@@ -1,0 +1,40 @@
+@import "background";
+@import "logo";
+@import "header";
+@import "content-area";
+@import "content-heading";
+@import "font-family";
+@import "fontawesome";
+@import "solid";
+@import "regular";
+@import "brands";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.overflow{
+    overflow: hidden;
+}
+._80{
+    width: 80%;
+    margin: 0px auto;
+}
+.realtive{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.flex{
+    display: flex;
+}
+.container{
+    justify-content: space-between;
+}
+a,li,h1,h2,h3,h4,h5,h6{
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+}
